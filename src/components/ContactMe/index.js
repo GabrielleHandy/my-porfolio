@@ -9,16 +9,16 @@ const ContactMe = () => {
         <ContactWrap>
         
         <ContactLinksContainer>
-            <ContactLink target="_blank" href="https://github.com/GabrielleHandy">
+            <ContactLink target="_blank" rel="noreferrer" href="https://github.com/GabrielleHandy">
                 <ContactLogo src={require("../../images/github-svgrepo-com.svg").default}/>
             </ContactLink>
-            <ContactLink target="_blank" href="https://www.linkedin.com/in/gabriellehandyswe/">
+            <ContactLink target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriellehandyswe/">
                 <ContactLogo src={require("../../images/linkedin-svgrepo-com.svg").default} />
             </ContactLink>
-            <ContactLink target="_blank" href="mailto:gehandy123@gmail.com?subject=I%20want%20to%20hire%20you!%20 :)">
+            <ContactLink target="_blank" rel="noreferrer" href="mailto:gehandy123@gmail.com?subject=I%20want%20to%20hire%20you!%20 :)">
                 <ContactLogo src={require('../../images/gmail-svgrepo-com.svg').default}/>
             </ContactLink>
-            <ContactLink target="_blank" href="https://docs.google.com/document/d/1aLVOuZKQPUiKOyBCLg137WT180HddUXbJefrqG_x8zM/edit?usp=sharing">
+            <ContactLink target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1aLVOuZKQPUiKOyBCLg137WT180HddUXbJefrqG_x8zM/edit?usp=sharing">
                 <ContactLogo  src={require('../../images/resume-svgrepo-com.svg').default}/>
             </ContactLink>
         </ContactLinksContainer>
