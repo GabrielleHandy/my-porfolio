@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="main">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={require(Video)} type='video/mp4'>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4'>
 
                 </VideoBg>
             </HeroBg>
