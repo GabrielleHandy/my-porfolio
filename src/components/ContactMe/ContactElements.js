@@ -12,9 +12,9 @@ export const ContactContainer = styled.div`
 
 `;
 export const ContactImg = styled.img`
-    height: 50%;
+    height: 35%;
     justify-self: center;
-    margin-top: 58px;
+    margin-top: 15%;
 
 
 `;
@@ -24,7 +24,6 @@ export const ContactWrap = styled.div`
 
     display: grid;
     z-index: 1;
-    height: 860px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
