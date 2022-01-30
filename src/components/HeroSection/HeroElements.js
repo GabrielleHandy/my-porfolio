@@ -27,8 +27,8 @@ export const HeroBg =styled.div`
 export const VideoBg =styled.video`
     width: 100%;
     height: 100%;
-    /* -o-object-fit: cover;
-    object-fit: cover; */
+    -o-object-fit: cover;
+    object-fit: cover;
     background-image: url(require('../../images/bg-video-photo.jpg'));
     
 
